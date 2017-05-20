@@ -44,7 +44,11 @@
 	<style type="text/css">
 		table, th { text-align: right; }
 		table tr td:first-child, table tr th:first-child  { text-align: left; }
-		tr.explainer th, tr.donation td { background: #efefef; border: 0; }
+		tr.toggle { background: #fafafa; border: 0; display: none; }
+		tr.toggle td { text-align: left; }
+		tr.explainer { font-weight: bold; }
+		tr.bold td { font-weight: bold; }
+		i.fa-caret-down { color: #ccc; }
 	</style>
 
 	</head>
@@ -65,156 +69,169 @@
 				 </thead>
 				 <tbody>
 					 
-					 <tr><td>Allen, Mark</td><td>4</td><td>R</td><td>Senate</td><td>$4,500</td><td>$500</td><td>11.1%</td><td>1</td></tr>
-					 <tr class="explainer"><th></th><th>Contributor</th><th>Company/Association</th><th>Title</th><th>Type</th><th>Recipient</th><th>Donation</th><th>Date</th></tr>
-					 <tr class="donation"><td></td><td>Spectra Energy Corp. PAC</td><td>Spectra Energy Corp.</td><td>N/A</td><td>PAC</td><td>Mark Allen</td><td>$500</td><td>1/29/2016</td></tr>
+					 <tr class="totals"><td>Allen, Mark</td><td>4</td><td>R</td><td>Senate</td><td>$4,500</td><td>$500</td><td>11.1%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="explainer small toggle"><td></td><td>Contributor</td><td>Company/Association</td><td>Title</td><td>Type</td><td>Recipient</td><td>Donation</td><td>Date</td></tr>
+					 <tr class="donation small toggle"><td></td><td>Spectra Energy Corp. PAC</td><td>Spectra Energy Corp.</td><td>N/A</td><td>PAC</td><td>Mark Allen</td><td>$500</td><td>1/29/2016</td></tr>
 					 
 					 
-					 <tr><td>Babinec, Greg</td><td>33</td><td>R</td><td>House</td><td>$107,298</td><td>$2,250</td><td>2.1%</td><td>4</td></tr>
-					 <tr><td>Baker, Rhonda</td><td>60</td><td>R</td><td>House</td><td>$59,204</td><td>$2,001</td><td>3.4%</td><td>3</td></tr>
-					 <tr><td>Bass, Randy</td><td>32</td><td>D</td><td>Senate</td><td>$10,275</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Bennett, Forrest</td><td>92</td><td>D</td><td>House</td><td>$94,743</td><td>$4,400</td><td>4.6%</td><td>13</td></tr>
-					 <tr><td>Bennett, John</td><td>2</td><td>R</td><td>House</td><td>$68,451</td><td>$1,251</td><td>1.8%</td><td>0</td></tr>
-					 <tr><td>Bergstrom, Micheal</td><td>1</td><td>R</td><td>Senate</td><td>$49,313</td><td>$1,001</td><td>2.0%</td><td>1</td></tr>
-					 <tr><td>Bice, Stephanie</td><td>22</td><td>R</td><td>Senate</td><td>$61,772</td><td>$3,250</td><td>5.3%</td><td>4</td></tr>
-					 <tr><td>Biggs, Scott</td><td>51</td><td>R</td><td>House</td><td>$101,912</td><td>$12,751</td><td>12.5%</td><td>15</td></tr>
-					 <tr><td>Blancett, Meloyde</td><td>78</td><td>D</td><td>House</td><td>$113,662</td><td>$1,300</td><td>1.1%</td><td>3</td></tr>
-					 <tr><td>Boggs, Larry</td><td>7</td><td>R</td><td>Senate</td><td>$91,606</td><td>$6,050</td><td>6.6%</td><td>13</td></tr>
-					 <tr><td>Brecheen, Josh</td><td>6</td><td>R</td><td>Senate</td><td>$5,300</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Brown, Bill</td><td>36</td><td>R</td><td>Senate</td><td>$21,300</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Bush, Carol</td><td>70</td><td>R</td><td>House</td><td>$65,316</td><td>$4,551</td><td>7.0%</td><td>11</td></tr>
-					 <tr><td>Caldwell, Chad</td><td>40</td><td>R</td><td>House</td><td>$113,950</td><td>$6,001</td><td>5.3%</td><td>12</td></tr>
-					 <tr><td>Calvey, Kevin</td><td>82</td><td>R</td><td>House</td><td>$107,931</td><td>$12,951</td><td>12.0%</td><td>17</td></tr>
-					 <tr><td>Cannaday, Ed</td><td>15</td><td>D</td><td>House</td><td>$19,175</td><td>$1,000</td><td>5.2%</td><td>2</td></tr>
-					 <tr><td>Casey, Dennis</td><td>35</td><td>R</td><td>House</td><td>$8,351</td><td>$500</td><td>6.0%</td><td>1</td></tr>
-					 <tr><td>Cleveland, Bobby</td><td>20</td><td>R</td><td>House</td><td>$92,978</td><td>$10,200</td><td>11.0%</td><td>13</td></tr>
-					 <tr><td>Cockroft, Josh</td><td>27</td><td>R</td><td>House</td><td>$97,592</td><td>$8,000</td><td>8.2%</td><td>11</td></tr>
-					 <tr><td>Condit, Donnie</td><td>18</td><td>D</td><td>House</td><td>$49,225</td><td>$2,000</td><td>4.1%</td><td>4</td></tr>
-					 <tr><td>Coody, Jeff</td><td>63</td><td>R</td><td>House</td><td>$93,071</td><td>$3,551</td><td>3.8%</td><td>7</td></tr>
-					 <tr><td>Dahm, Nathan</td><td>33</td><td>R</td><td>Senate</td><td>$81,362</td><td>$500</td><td>0.6%</td><td>1</td></tr>
-					 <tr><td>Daniels, Julie</td><td>29</td><td>R</td><td>Senate</td><td>$120,647</td><td>$13,700</td><td>11.4%</td><td>39</td></tr>
-					 <tr><td>David, Kim </td><td>18</td><td>R</td><td>Senate</td><td>$90,225</td><td>$7,250</td><td>8.0%</td><td>5</td></tr>
-					 <tr><td>Derby, Dale</td><td>74</td><td>R</td><td>House</td><td>$46,532</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Dollens, Mickey</td><td>93</td><td>D</td><td>House</td><td>$105,431</td><td>$4,025</td><td>3.8%</td><td>12</td></tr>
-					 <tr><td>Dossett, J.J.</td><td>34</td><td>D</td><td>Senate</td><td>$68,321</td><td>$2,000</td><td>2.9%</td><td>2</td></tr>
-					 <tr><td>Downing, Tim</td><td>42</td><td>R</td><td>House</td><td>$113,901</td><td>$6,751</td><td>5.9%</td><td>10</td></tr>
-					 <tr><td>Dugger, Tom</td><td>21</td><td>R</td><td>Senate</td><td>$99,161</td><td>$4,001</td><td>4.0%</td><td>7</td></tr>
-					 <tr><td>Dunlap, Travis</td><td>10</td><td>R</td><td>House</td><td>$28,657</td><td>$3,511</td><td>12.3%</td><td>7</td></tr>
-					 <tr><td>Dunnington, Jason</td><td>88</td><td>D</td><td>House</td><td>$58,874</td><td>$1,850</td><td>3.1%</td><td>5</td></tr>
-					 <tr><td>Echols, Jon</td><td>90</td><td>R</td><td>House</td><td>$128,650</td><td>$13,250</td><td>10.3%</td><td>12</td></tr>
-					 <tr><td>Enns, John </td><td>41</td><td>R</td><td>House</td><td>$12,550</td><td>$1,750</td><td>13.9%</td><td>4</td></tr>
-					 <tr><td>Faught, George</td><td>14</td><td>R</td><td>House</td><td>$40,125</td><td>$2,750</td><td>6.9%</td><td>4</td></tr>
-					 <tr><td>Fetgatter, Scott</td><td>16</td><td>R</td><td>House</td><td>$75,141</td><td>$1,250</td><td>1.7%</td><td>2</td></tr>
-					 <tr><td>Fields, Eddie</td><td>10</td><td>R</td><td>Senate</td><td>$8,200</td><td>$500</td><td>6.1%</td><td>0</td></tr>
-					 <tr><td>Floyd, Kay</td><td>46</td><td>D</td><td>Senate</td><td>$35,406</td><td>$500</td><td>1.4%</td><td>1</td></tr>
-					 <tr><td>Ford, Roger</td><td>95</td><td>R</td><td>House</td><td>$56,279</td><td>$501</td><td>0.9%</td><td>1</td></tr>
-					 <tr><td>Fourkiller, Will</td><td>86</td><td>D</td><td>House</td><td>$32,750</td><td>$500</td><td>1.5%</td><td>1</td></tr>
-					 <tr><td>Frix, Avery</td><td>13</td><td>R</td><td>House</td><td>$95,691</td><td>$501</td><td>0.5%</td><td>1</td></tr>
-					 <tr><td>Fry, Jack</td><td>42</td><td>R</td><td>Senate</td><td>$25,600</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Gann, Tom</td><td>8</td><td>R</td><td>House</td><td>$32,545</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Goodwin, Regina</td><td>73</td><td>D</td><td>House</td><td>$59,699</td><td>$500</td><td>0.8%</td><td>1</td></tr>
-					 <tr><td>Griffin, AJ</td><td>20</td><td>R</td><td>Senate</td><td>$49,322</td><td>$6,500</td><td>13.2%</td><td>7</td></tr>
-					 <tr><td>Griffith, Claudia</td><td>45</td><td>D</td><td>House</td><td>$108,127</td><td>$1,500</td><td>1.4%</td><td>2</td></tr>
-					 <tr><td>Hall, Elise</td><td>100</td><td>R</td><td>House</td><td>$65,980</td><td>$3,700</td><td>5.6%</td><td>7</td></tr>
-					 <tr><td>Hardin, Tommy</td><td>49</td><td>R</td><td>House</td><td>$44,956</td><td>$501</td><td>1.1%</td><td>1</td></tr>
-					 <tr><td>Henke, Katie</td><td>71</td><td>R</td><td>House</td><td>$117,105</td><td>$11,350</td><td>9.7%</td><td>12</td></tr>
-					 <tr><td>Hilbert, Kyle</td><td>29</td><td>R</td><td>House</td><td>$64,747</td><td>$2,251</td><td>3.5%</td><td>5</td></tr>
-					 <tr><td>Holt, David</td><td>30</td><td>R</td><td>Senate</td><td>$42,350</td><td>$3,000</td><td>7.1%</td><td>4</td></tr>
-					 <tr><td>Hoskin, Chuck</td><td>6</td><td>D</td><td>House</td><td>$66,039</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Humphrey, Justin</td><td>19</td><td>R</td><td>House</td><td>$29,980</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Inman, Scott</td><td>94</td><td>D</td><td>House</td><td>$213,687</td><td>$11,000</td><td>5.1%</td><td>13</td></tr>
-					 <tr><td>Jech, Darcy</td><td>26</td><td>R</td><td>Senate</td><td>$31,010</td><td>$1,500</td><td>4.8%</td><td>2</td></tr>
-					 <tr><td>Jordan, John Paul</td><td>43</td><td>R</td><td>House</td><td>$77,104</td><td>$2,001</td><td>2.6%</td><td>6</td></tr>
-					 <tr><td>Kannady, Chris</td><td>91</td><td>R</td><td>House</td><td>$237,812</td><td>$9,800</td><td>4.1%</td><td>11</td></tr>
-					 <tr><td>Kerbs, Dell</td><td>26</td><td>R</td><td>House</td><td>$37,746</td><td>$1,601</td><td>4.2%</td><td>4</td></tr>
-					 <tr><td>Kidd, Chris</td><td>31</td><td>R</td><td>Senate</td><td>$112,710</td><td>$9,201</td><td>8.2%</td><td>10</td></tr>
-					 <tr><td>Kouplen, Steve</td><td>24</td><td>D</td><td>House</td><td>$24,151</td><td>$501</td><td>2.1%</td><td>1</td></tr>
-					 <tr><td>Lawson, Mark</td><td>30</td><td>R</td><td>House</td><td>$41,955</td><td>$1,500</td><td>3.6%</td><td>2</td></tr>
-					 <tr><td>Leewright, James</td><td>12</td><td>R</td><td>Senate</td><td>$115,396</td><td>$11,250</td><td>9.7%</td><td>10</td></tr>
-					 <tr><td>Lepak, Mark</td><td>9</td><td>R</td><td>House</td><td>$50,392</td><td>$5,051</td><td>10.0%</td><td>7</td></tr>
-					 <tr><td>Loring, Ben</td><td>7</td><td>D</td><td>House</td><td>$54,152</td><td>$2,750</td><td>5.1%</td><td>5</td></tr>
-					 <tr><td>Lowe, Jason</td><td>97</td><td>D</td><td>House</td><td>$40,681</td><td>$501</td><td>1.2%</td><td>1</td></tr>
-					 <tr><td>Marlatt, Bryce</td><td>27</td><td>R</td><td>Senate</td><td>$125,696</td><td>$24,701</td><td>19.7%</td><td>19</td></tr>
-					 <tr><td>Martin, Scott</td><td>46</td><td>R</td><td>House</td><td>$84,591</td><td>$5,251</td><td>6.2%</td><td>9</td></tr>
-					 <tr><td>Martinez, Ryan</td><td>39</td><td>R</td><td>House</td><td>$79,461</td><td>$6,801</td><td>8.6%</td><td>9</td></tr>
-					 <tr><td>Matthews, Kevin</td><td>11</td><td>D</td><td>Senate</td><td>$104,680</td><td>$2,450</td><td>2.3%</td><td>6</td></tr>
-					 <tr><td>McBride, Mark</td><td>53</td><td>R</td><td>House</td><td>$98,046</td><td>$9,750</td><td>9.9%</td><td>10</td></tr>
-					 <tr><td>McCall, Charles</td><td>22</td><td>R</td><td>House</td><td>$211,951</td><td>$31,751</td><td>15.0%</td><td>20</td></tr>
-					 <tr><td>McCortney, Greg</td><td>13</td><td>R</td><td>Senate</td><td>$146,488</td><td>$12,401</td><td>8.5%</td><td>16</td></tr>
-					 <tr><td>McDaniel, Randy</td><td>83</td><td>R</td><td>House</td><td>$48,251</td><td>$4,001</td><td>8.3%</td><td>6</td></tr>
-					 <tr><td>McDugle, Kevin</td><td>12</td><td>R</td><td>House</td><td>$85,680</td><td>$2,301</td><td>2.7%</td><td>5</td></tr>
-					 <tr><td>McEachin, Scott </td><td>67</td><td>R</td><td>House</td><td>$84,629</td><td>$500</td><td>0.6%</td><td>1</td></tr>
-					 <tr><td>McEntire, Marcus</td><td>50</td><td>R</td><td>House</td><td>$76,345</td><td>$2,884</td><td>3.8%</td><td>7</td></tr>
-					 <tr><td>Meredith, Matt</td><td>4</td><td>D</td><td>House</td><td>$43,906</td><td>$501</td><td>1.1%</td><td>1</td></tr>
-					 <tr><td>Montgomery, John</td><td>62</td><td>R</td><td>House</td><td>$90,785</td><td>$5,300</td><td>5.8%</td><td>11</td></tr>
-					 <tr><td>Moore, Lewis</td><td>96</td><td>R</td><td>House</td><td>$69,626</td><td>$5,000</td><td>7.2%</td><td>5</td></tr>
-					 <tr><td>Mulready, Glen</td><td>68</td><td>R</td><td>House</td><td>$79,990</td><td>$4,500</td><td>5.6%</td><td>7</td></tr>
-					 <tr><td>Munson, Cyndi</td><td>85</td><td>D</td><td>House</td><td>$334,215</td><td>$7,755</td><td>2.3%</td><td>26</td></tr>
-					 <tr><td>Murdock, Casey</td><td>61</td><td>R</td><td>House</td><td>$129,800</td><td>$6,550</td><td>5.0%</td><td>14</td></tr>
-					 <tr><td>Murphey, Jason</td><td>31</td><td>R</td><td>House</td><td>$6,040</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Newberry, Dan</td><td>37</td><td>R</td><td>Senate</td><td>$382,614</td><td>$16,050</td><td>4.2%</td><td>18</td></tr>
-					 <tr><td>Newhouse, Joe</td><td>25</td><td>R</td><td>Senate</td><td>$76,936</td><td>$3,851</td><td>5.0%</td><td>7</td></tr>
-					 <tr><td>Newton, Carl</td><td>58</td><td>R</td><td>House</td><td>$68,541</td><td>$1,500</td><td>2.2%</td><td>2</td></tr>
-					 <tr><td>Nichols, Monroe</td><td>72</td><td>D</td><td>House</td><td>$48,330</td><td>$750</td><td>1.6%</td><td>2</td></tr>
-					 <tr><td>Nollan, Jadine</td><td>66</td><td>R</td><td>House</td><td>$69,176</td><td>$3,501</td><td>5.1%</td><td>8</td></tr>
-					 <tr><td>O'Donnell, Terry</td><td>23</td><td>R</td><td>House</td><td>$117,851</td><td>$10,300</td><td>8.7%</td><td>11</td></tr>
-					 <tr><td>Ortega, Charles</td><td>52</td><td>R</td><td>House</td><td>$73,676</td><td>$4,001</td><td>5.4%</td><td>6</td></tr>
-					 <tr><td>Osborn, Leslie</td><td>47</td><td>R</td><td>House</td><td>$184,564</td><td>$7,100</td><td>3.8%</td><td>10</td></tr>
-					 <tr><td>Osburn, Mike</td><td>81</td><td>R</td><td>House</td><td>$69,431</td><td>$4,200</td><td>6.0%</td><td>5</td></tr>
-					 <tr><td>Ownbey, Pat</td><td>48</td><td>R</td><td>House</td><td>$46,591</td><td>$7,851</td><td>16.9%</td><td>12</td></tr>
-					 <tr><td>Park, Scooter</td><td>65</td><td>R</td><td>House</td><td>$91,070</td><td>$8,800</td><td>9.7%</td><td>10</td></tr>
-					 <tr><td>Paxton, Lonnie</td><td>23</td><td>R</td><td>Senate</td><td>$138,791</td><td>$6,926</td><td>5.0%</td><td>12</td></tr>
-					 <tr><td>Pederson, Roland</td><td>19</td><td>R</td><td>Senate</td><td>$129,525</td><td>$5,501</td><td>4.2%</td><td>8</td></tr>
-					 <tr><td>Pemberton, Dewayne</td><td>9</td><td>R</td><td>Senate</td><td>$83,214</td><td>$350</td><td>0.4%</td><td>2</td></tr>
-					 <tr><td>Perryman, David</td><td>56</td><td>D</td><td>House</td><td>$67,997</td><td>$500</td><td>0.7%</td><td>1</td></tr>
-					 <tr><td>Pfeiffer, John</td><td>38</td><td>R</td><td>House</td><td>$55,676</td><td>$6,251</td><td>11.2%</td><td>11</td></tr>
-					 <tr><td>Pittman, Anastasia</td><td>48</td><td>D</td><td>Senate</td><td>$11,925</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Proctor, Eric</td><td>77</td><td>D</td><td>House</td><td>$30,916</td><td>$850</td><td>2.7%</td><td>2</td></tr>
-					 <tr><td>Pugh, Adam</td><td>41</td><td>R</td><td>Senate</td><td>$203,995</td><td>$19,801</td><td>9.7%</td><td>21</td></tr>
-					 <tr><td>Quinn, Marty</td><td>2</td><td>R</td><td>Senate</td><td>$37,950</td><td>$3,750</td><td>9.9%</td><td>4</td></tr>
-					 <tr><td>Rader, David</td><td>39</td><td>R</td><td>Senate</td><td>$234,900</td><td>$12,050</td><td>5.1%</td><td>18</td></tr>
-					 <tr><td>Renegar, Brian</td><td>17</td><td>D</td><td>House</td><td>$41,070</td><td>$1,350</td><td>3.3%</td><td>4</td></tr>
-					 <tr><td>Ritze, Mike</td><td>80</td><td>R</td><td>House</td><td>$22,150</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Roberts, Dustin</td><td>21</td><td>R</td><td>House</td><td>$59,100</td><td>$1,000</td><td>1.7%</td><td>2</td></tr>
-					 <tr><td>Roberts, Sean</td><td>36</td><td>R</td><td>House</td><td>$32,458</td><td>$2,001</td><td>6.2%</td><td>4</td></tr>
-					 <tr><td>Rogers, Michael</td><td>98</td><td>R</td><td>House</td><td>$29,875</td><td>$2,250</td><td>7.5%</td><td>4</td></tr>
-					 <tr><td>Russ, Todd</td><td>55</td><td>R</td><td>House</td><td>$68,036</td><td>$4,851</td><td>7.1%</td><td>9</td></tr>
-					 <tr><td>Sanders, Mike</td><td>59</td><td>R</td><td>House</td><td>$163,984</td><td>$13,751</td><td>8.4%</td><td>13</td></tr>
-					 <tr><td>Schulz, Mike</td><td>38</td><td>R</td><td>Senate</td><td>$64,350</td><td>$13,000</td><td>20.2%</td><td>7</td></tr>
-					 <tr><td>Scott, Paul</td><td>43</td><td>R</td><td>Senate</td><td>$109,974</td><td>$5,200</td><td>4.7%</td><td>4</td></tr>
-					 <tr><td>Sears, Earl</td><td>11</td><td>R</td><td>House</td><td>$41,881</td><td>$1,001</td><td>2.4%</td><td>1</td></tr>
-					 <tr><td>Sharp, Ron</td><td>17</td><td>R</td><td>Senate</td><td>$92,926</td><td>$3,951</td><td>4.3%</td><td>6</td></tr>
-					 <tr><td>Shaw, Wayne</td><td>3</td><td>R</td><td>Senate</td><td>$82,164</td><td>$4,250</td><td>5.2%</td><td>6</td></tr>
-					 <tr><td>Silk, Joseph</td><td>5</td><td>R</td><td>Senate</td><td>$47,279</td><td>$2,950</td><td>6.2%</td><td>5</td></tr>
-					 <tr><td>Simpson, Frank</td><td>14</td><td>R</td><td>Senate</td><td>$9,950</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Smalley, Jason</td><td>28</td><td>R</td><td>Senate</td><td>$40,600</td><td>$5,000</td><td>12.3%</td><td>4</td></tr>
-					 <tr><td>Sparks, John</td><td>16</td><td>D</td><td>Senate</td><td>$23,500</td><td>$4,750</td><td>20.2%</td><td>5</td></tr>
-					 <tr><td>Standridge, Rob</td><td>15</td><td>R</td><td>Senate</td><td>$217,462</td><td>$6,200</td><td>2.9%</td><td>9</td></tr>
-					 <tr><td>Stanislawski, Gary </td><td>35</td><td>R</td><td>Senate</td><td>$57,400</td><td>$3,500</td><td>6.1%</td><td>4</td></tr>
-					 <tr><td>Stone, Shane</td><td>89</td><td>D</td><td>House</td><td>$33,256</td><td>$1,250</td><td>3.8%</td><td>3</td></tr>
-					 <tr><td>Strohm, Chuck</td><td>69</td><td>R</td><td>House</td><td>$37,750</td><td>$2,250</td><td>6.0%</td><td>4</td></tr>
-					 <tr><td>Sykes, Anthony</td><td>24</td><td>R</td><td>Senate</td><td>$2,450</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Tadlock, Johnny</td><td>1</td><td>D</td><td>House</td><td>$21,750</td><td>$0</td><td>0.0%</td><td>0</td></tr>
-					 <tr><td>Taylor, Zack</td><td>28</td><td>R</td><td>House</td><td>$81,463</td><td>$15,575</td><td>19.1%</td><td>25</td></tr>
-					 <tr><td>Teague, Tess</td><td>101</td><td>R</td><td>House</td><td>$40,566</td><td>$3,501</td><td>8.6%</td><td>5</td></tr>
-					 <tr><td>Thompson, Roger</td><td>8</td><td>R</td><td>Senate</td><td>$34,206</td><td>$750</td><td>2.2%</td><td>1</td></tr>
-					 <tr><td>Thomsen, Todd</td><td>25</td><td>R</td><td>House</td><td>$84,125</td><td>$15,550</td><td>18.5%</td><td>22</td></tr>
-					 <tr><td>Treat, Greg</td><td>47</td><td>R</td><td>Senate</td><td>$256,856</td><td>$22,697</td><td>8.8%</td><td>23</td></tr>
-					 <tr><td>Vaughan, Steve</td><td>37</td><td>R</td><td>House</td><td>$6,576</td><td>$1,001</td><td>15.2%</td><td>1</td></tr>
-					 <tr><td>Virgin, Emily</td><td>44</td><td>D</td><td>House</td><td>$44,343</td><td>$2,501</td><td>5.6%</td><td>4</td></tr>
-					 <tr><td>Walke, Collin</td><td>87</td><td>D</td><td>House</td><td>$135,578</td><td>$4,050</td><td>3.0%</td><td>10</td></tr>
-					 <tr><td>Wallace, Kevin</td><td>32</td><td>R</td><td>House</td><td>$167,281</td><td>$10,050</td><td>6.0%</td><td>13</td></tr>
-					 <tr><td>Watson, Weldon</td><td>79</td><td>R</td><td>House</td><td>$62,446</td><td>$16,251</td><td>26.0%</td><td>15</td></tr>
-					 <tr><td>West, Josh</td><td>5</td><td>R</td><td>House</td><td>$75,235</td><td>$1,751</td><td>2.3%</td><td>3</td></tr>
-					 <tr><td>West, Kevin</td><td>54</td><td>R</td><td>House</td><td>$52,808</td><td>$3,501</td><td>6.6%</td><td>3</td></tr>
-					 <tr><td>West, Rick</td><td>3</td><td>R</td><td>House</td><td>$56,304</td><td>$3,501</td><td>6.2%</td><td>4</td></tr>
-					 <tr><td>West, Tammy</td><td>84</td><td>R</td><td>House</td><td>$69,457</td><td>$4,251</td><td>6.1%</td><td>5</td></tr>
-					 <tr><td>Williams, Cory</td><td>34</td><td>D</td><td>House</td><td>$5,900</td><td>$501</td><td>8.5%</td><td>1</td></tr>
-					 <tr><td>Worthen, Rande</td><td>64</td><td>R</td><td>House</td><td>$56,960</td><td>$250</td><td>0.4%</td><td>1</td></tr>
-					 <tr><td>Wright, Harold</td><td>57</td><td>R</td><td>House</td><td>$64,151</td><td>$2,501</td><td>3.9%</td><td>4</td></tr>
-					 <tr><td>Yen, Ervin</td><td>40</td><td>R</td><td>Senate</td><td>$69,225</td><td>$500</td><td>0.7%</td><td>1</td></tr>
-					 <tr><td>Young, George</td><td>99</td><td>D</td><td>House</td><td>$54,122</td><td>$2,250</td><td>4.2%</td><td>3</td></tr>
-					 <tr><td>Total</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>$11,318,875.02</td><td>$680,255.22</td><td>6.0%</td><td>381</td></tr>
+					 <tr class="totals"><td>Babinec, Greg</td><td>33</td><td>R</td><td>House</td><td>$107,298</td><td>$2,250</td><td>2.1%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="explainer small toggle"><td></td><td>Contributor</td><td>Company/Association</td><td>Title</td><td>Type</td><td>Recipient</td><td>Donation</td><td>Date</td></tr>
+					 <tr class="donation small toggle"><td></td><td> Devon Energy Corp. PAC</td><td>Devon Energy Corp.</td><td>N/A</td><td>PAC</td><td> Greg Babinec</td><td>$1,000</td><td>6/13/2016</td></tr>
+					 <tr class="donation small toggle"><td></td><td> David Hester</td><td>Hlh Oilfield</td><td>Owner</td><td>Individual</td><td> Greg Babinec</td><td>$500</td><td>6/6/2016</td></tr>
+					 <tr class="donation small toggle"><td></td><td> Spectra Energy Corp. PAC</td><td>Spectra Energy Corp.</td><td>N/A</td><td>PAC</td><td> Greg Babinec</td><td>$500</td><td>7/1/2016</td></tr>
+					 <tr class="donation small toggle"><td></td><td> Unit Corp. PAC</td><td>Unit Corp. </td><td>N/A</td><td>PAC</td><td> Greg Babinec</td><td>$250</td><td>11/2/2016</td></tr>
+					 
+					 
+					 <tr class="totals"><td>Baker, Rhonda</td><td>60</td><td>R</td><td>House</td><td>$59,204</td><td>$2,001</td><td>3.4%</td><td>3&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 
+					 
+					 
+					 <tr class="totals"><td>Bass, Randy</td><td>32</td><td>D</td><td>Senate</td><td>$10,275</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 
+					 
+					 
+					 <tr class="totals"><td>Bennett, Forrest</td><td>92</td><td>D</td><td>House</td><td>$94,743</td><td>$4,400</td><td>4.6%</td><td>13&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Bennett, John</td><td>2</td><td>R</td><td>House</td><td>$68,451</td><td>$1,251</td><td>1.8%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Bergstrom, Micheal</td><td>1</td><td>R</td><td>Senate</td><td>$49,313</td><td>$1,001</td><td>2.0%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Bice, Stephanie</td><td>22</td><td>R</td><td>Senate</td><td>$61,772</td><td>$3,250</td><td>5.3%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Biggs, Scott</td><td>51</td><td>R</td><td>House</td><td>$101,912</td><td>$12,751</td><td>12.5%</td><td>15&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Blancett, Meloyde</td><td>78</td><td>D</td><td>House</td><td>$113,662</td><td>$1,300</td><td>1.1%</td><td>3&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Boggs, Larry</td><td>7</td><td>R</td><td>Senate</td><td>$91,606</td><td>$6,050</td><td>6.6%</td><td>13&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Brecheen, Josh</td><td>6</td><td>R</td><td>Senate</td><td>$5,300</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Brown, Bill</td><td>36</td><td>R</td><td>Senate</td><td>$21,300</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Bush, Carol</td><td>70</td><td>R</td><td>House</td><td>$65,316</td><td>$4,551</td><td>7.0%</td><td>11&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Caldwell, Chad</td><td>40</td><td>R</td><td>House</td><td>$113,950</td><td>$6,001</td><td>5.3%</td><td>12&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Calvey, Kevin</td><td>82</td><td>R</td><td>House</td><td>$107,931</td><td>$12,951</td><td>12.0%</td><td>17&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Cannaday, Ed</td><td>15</td><td>D</td><td>House</td><td>$19,175</td><td>$1,000</td><td>5.2%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Casey, Dennis</td><td>35</td><td>R</td><td>House</td><td>$8,351</td><td>$500</td><td>6.0%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Cleveland, Bobby</td><td>20</td><td>R</td><td>House</td><td>$92,978</td><td>$10,200</td><td>11.0%</td><td>13&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Cockroft, Josh</td><td>27</td><td>R</td><td>House</td><td>$97,592</td><td>$8,000</td><td>8.2%</td><td>11&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Condit, Donnie</td><td>18</td><td>D</td><td>House</td><td>$49,225</td><td>$2,000</td><td>4.1%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Coody, Jeff</td><td>63</td><td>R</td><td>House</td><td>$93,071</td><td>$3,551</td><td>3.8%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Dahm, Nathan</td><td>33</td><td>R</td><td>Senate</td><td>$81,362</td><td>$500</td><td>0.6%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Daniels, Julie</td><td>29</td><td>R</td><td>Senate</td><td>$120,647</td><td>$13,700</td><td>11.4%</td><td>39&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>David, Kim </td><td>18</td><td>R</td><td>Senate</td><td>$90,225</td><td>$7,250</td><td>8.0%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Derby, Dale</td><td>74</td><td>R</td><td>House</td><td>$46,532</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Dollens, Mickey</td><td>93</td><td>D</td><td>House</td><td>$105,431</td><td>$4,025</td><td>3.8%</td><td>12&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Dossett, J.J.</td><td>34</td><td>D</td><td>Senate</td><td>$68,321</td><td>$2,000</td><td>2.9%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Downing, Tim</td><td>42</td><td>R</td><td>House</td><td>$113,901</td><td>$6,751</td><td>5.9%</td><td>10&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Dugger, Tom</td><td>21</td><td>R</td><td>Senate</td><td>$99,161</td><td>$4,001</td><td>4.0%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Dunlap, Travis</td><td>10</td><td>R</td><td>House</td><td>$28,657</td><td>$3,511</td><td>12.3%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Dunnington, Jason</td><td>88</td><td>D</td><td>House</td><td>$58,874</td><td>$1,850</td><td>3.1%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Echols, Jon</td><td>90</td><td>R</td><td>House</td><td>$128,650</td><td>$13,250</td><td>10.3%</td><td>12&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Enns, John </td><td>41</td><td>R</td><td>House</td><td>$12,550</td><td>$1,750</td><td>13.9%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Faught, George</td><td>14</td><td>R</td><td>House</td><td>$40,125</td><td>$2,750</td><td>6.9%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Fetgatter, Scott</td><td>16</td><td>R</td><td>House</td><td>$75,141</td><td>$1,250</td><td>1.7%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Fields, Eddie</td><td>10</td><td>R</td><td>Senate</td><td>$8,200</td><td>$500</td><td>6.1%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Floyd, Kay</td><td>46</td><td>D</td><td>Senate</td><td>$35,406</td><td>$500</td><td>1.4%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Ford, Roger</td><td>95</td><td>R</td><td>House</td><td>$56,279</td><td>$501</td><td>0.9%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Fourkiller, Will</td><td>86</td><td>D</td><td>House</td><td>$32,750</td><td>$500</td><td>1.5%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Frix, Avery</td><td>13</td><td>R</td><td>House</td><td>$95,691</td><td>$501</td><td>0.5%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Fry, Jack</td><td>42</td><td>R</td><td>Senate</td><td>$25,600</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Gann, Tom</td><td>8</td><td>R</td><td>House</td><td>$32,545</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Goodwin, Regina</td><td>73</td><td>D</td><td>House</td><td>$59,699</td><td>$500</td><td>0.8%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Griffin, AJ</td><td>20</td><td>R</td><td>Senate</td><td>$49,322</td><td>$6,500</td><td>13.2%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Griffith, Claudia</td><td>45</td><td>D</td><td>House</td><td>$108,127</td><td>$1,500</td><td>1.4%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Hall, Elise</td><td>100</td><td>R</td><td>House</td><td>$65,980</td><td>$3,700</td><td>5.6%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Hardin, Tommy</td><td>49</td><td>R</td><td>House</td><td>$44,956</td><td>$501</td><td>1.1%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Henke, Katie</td><td>71</td><td>R</td><td>House</td><td>$117,105</td><td>$11,350</td><td>9.7%</td><td>12&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Hilbert, Kyle</td><td>29</td><td>R</td><td>House</td><td>$64,747</td><td>$2,251</td><td>3.5%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Holt, David</td><td>30</td><td>R</td><td>Senate</td><td>$42,350</td><td>$3,000</td><td>7.1%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Hoskin, Chuck</td><td>6</td><td>D</td><td>House</td><td>$66,039</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Humphrey, Justin</td><td>19</td><td>R</td><td>House</td><td>$29,980</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Inman, Scott</td><td>94</td><td>D</td><td>House</td><td>$213,687</td><td>$11,000</td><td>5.1%</td><td>13&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Jech, Darcy</td><td>26</td><td>R</td><td>Senate</td><td>$31,010</td><td>$1,500</td><td>4.8%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Jordan, John Paul</td><td>43</td><td>R</td><td>House</td><td>$77,104</td><td>$2,001</td><td>2.6%</td><td>6&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Kannady, Chris</td><td>91</td><td>R</td><td>House</td><td>$237,812</td><td>$9,800</td><td>4.1%</td><td>11&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Kerbs, Dell</td><td>26</td><td>R</td><td>House</td><td>$37,746</td><td>$1,601</td><td>4.2%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Kidd, Chris</td><td>31</td><td>R</td><td>Senate</td><td>$112,710</td><td>$9,201</td><td>8.2%</td><td>10&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Kouplen, Steve</td><td>24</td><td>D</td><td>House</td><td>$24,151</td><td>$501</td><td>2.1%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Lawson, Mark</td><td>30</td><td>R</td><td>House</td><td>$41,955</td><td>$1,500</td><td>3.6%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Leewright, James</td><td>12</td><td>R</td><td>Senate</td><td>$115,396</td><td>$11,250</td><td>9.7%</td><td>10&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Lepak, Mark</td><td>9</td><td>R</td><td>House</td><td>$50,392</td><td>$5,051</td><td>10.0%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Loring, Ben</td><td>7</td><td>D</td><td>House</td><td>$54,152</td><td>$2,750</td><td>5.1%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Lowe, Jason</td><td>97</td><td>D</td><td>House</td><td>$40,681</td><td>$501</td><td>1.2%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Marlatt, Bryce</td><td>27</td><td>R</td><td>Senate</td><td>$125,696</td><td>$24,701</td><td>19.7%</td><td>19&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Martin, Scott</td><td>46</td><td>R</td><td>House</td><td>$84,591</td><td>$5,251</td><td>6.2%</td><td>9&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Martinez, Ryan</td><td>39</td><td>R</td><td>House</td><td>$79,461</td><td>$6,801</td><td>8.6%</td><td>9&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Matthews, Kevin</td><td>11</td><td>D</td><td>Senate</td><td>$104,680</td><td>$2,450</td><td>2.3%</td><td>6&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>McBride, Mark</td><td>53</td><td>R</td><td>House</td><td>$98,046</td><td>$9,750</td><td>9.9%</td><td>10&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>McCall, Charles</td><td>22</td><td>R</td><td>House</td><td>$211,951</td><td>$31,751</td><td>15.0%</td><td>20&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>McCortney, Greg</td><td>13</td><td>R</td><td>Senate</td><td>$146,488</td><td>$12,401</td><td>8.5%</td><td>16&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>McDaniel, Randy</td><td>83</td><td>R</td><td>House</td><td>$48,251</td><td>$4,001</td><td>8.3%</td><td>6&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>McDugle, Kevin</td><td>12</td><td>R</td><td>House</td><td>$85,680</td><td>$2,301</td><td>2.7%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>McEachin, Scott </td><td>67</td><td>R</td><td>House</td><td>$84,629</td><td>$500</td><td>0.6%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>McEntire, Marcus</td><td>50</td><td>R</td><td>House</td><td>$76,345</td><td>$2,884</td><td>3.8%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Meredith, Matt</td><td>4</td><td>D</td><td>House</td><td>$43,906</td><td>$501</td><td>1.1%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Montgomery, John</td><td>62</td><td>R</td><td>House</td><td>$90,785</td><td>$5,300</td><td>5.8%</td><td>11&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Moore, Lewis</td><td>96</td><td>R</td><td>House</td><td>$69,626</td><td>$5,000</td><td>7.2%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Mulready, Glen</td><td>68</td><td>R</td><td>House</td><td>$79,990</td><td>$4,500</td><td>5.6%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Munson, Cyndi</td><td>85</td><td>D</td><td>House</td><td>$334,215</td><td>$7,755</td><td>2.3%</td><td>26&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Murdock, Casey</td><td>61</td><td>R</td><td>House</td><td>$129,800</td><td>$6,550</td><td>5.0%</td><td>14&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Murphey, Jason</td><td>31</td><td>R</td><td>House</td><td>$6,040</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Newberry, Dan</td><td>37</td><td>R</td><td>Senate</td><td>$382,614</td><td>$16,050</td><td>4.2%</td><td>18&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Newhouse, Joe</td><td>25</td><td>R</td><td>Senate</td><td>$76,936</td><td>$3,851</td><td>5.0%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Newton, Carl</td><td>58</td><td>R</td><td>House</td><td>$68,541</td><td>$1,500</td><td>2.2%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Nichols, Monroe</td><td>72</td><td>D</td><td>House</td><td>$48,330</td><td>$750</td><td>1.6%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Nollan, Jadine</td><td>66</td><td>R</td><td>House</td><td>$69,176</td><td>$3,501</td><td>5.1%</td><td>8&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>O'Donnell, Terry</td><td>23</td><td>R</td><td>House</td><td>$117,851</td><td>$10,300</td><td>8.7%</td><td>11&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Ortega, Charles</td><td>52</td><td>R</td><td>House</td><td>$73,676</td><td>$4,001</td><td>5.4%</td><td>6&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Osborn, Leslie</td><td>47</td><td>R</td><td>House</td><td>$184,564</td><td>$7,100</td><td>3.8%</td><td>10&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Osburn, Mike</td><td>81</td><td>R</td><td>House</td><td>$69,431</td><td>$4,200</td><td>6.0%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Ownbey, Pat</td><td>48</td><td>R</td><td>House</td><td>$46,591</td><td>$7,851</td><td>16.9%</td><td>12&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Park, Scooter</td><td>65</td><td>R</td><td>House</td><td>$91,070</td><td>$8,800</td><td>9.7%</td><td>10&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Paxton, Lonnie</td><td>23</td><td>R</td><td>Senate</td><td>$138,791</td><td>$6,926</td><td>5.0%</td><td>12&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Pederson, Roland</td><td>19</td><td>R</td><td>Senate</td><td>$129,525</td><td>$5,501</td><td>4.2%</td><td>8&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Pemberton, Dewayne</td><td>9</td><td>R</td><td>Senate</td><td>$83,214</td><td>$350</td><td>0.4%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Perryman, David</td><td>56</td><td>D</td><td>House</td><td>$67,997</td><td>$500</td><td>0.7%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Pfeiffer, John</td><td>38</td><td>R</td><td>House</td><td>$55,676</td><td>$6,251</td><td>11.2%</td><td>11&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Pittman, Anastasia</td><td>48</td><td>D</td><td>Senate</td><td>$11,925</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Proctor, Eric</td><td>77</td><td>D</td><td>House</td><td>$30,916</td><td>$850</td><td>2.7%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Pugh, Adam</td><td>41</td><td>R</td><td>Senate</td><td>$203,995</td><td>$19,801</td><td>9.7%</td><td>21&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Quinn, Marty</td><td>2</td><td>R</td><td>Senate</td><td>$37,950</td><td>$3,750</td><td>9.9%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Rader, David</td><td>39</td><td>R</td><td>Senate</td><td>$234,900</td><td>$12,050</td><td>5.1%</td><td>18&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Renegar, Brian</td><td>17</td><td>D</td><td>House</td><td>$41,070</td><td>$1,350</td><td>3.3%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Ritze, Mike</td><td>80</td><td>R</td><td>House</td><td>$22,150</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Roberts, Dustin</td><td>21</td><td>R</td><td>House</td><td>$59,100</td><td>$1,000</td><td>1.7%</td><td>2&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Roberts, Sean</td><td>36</td><td>R</td><td>House</td><td>$32,458</td><td>$2,001</td><td>6.2%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Rogers, Michael</td><td>98</td><td>R</td><td>House</td><td>$29,875</td><td>$2,250</td><td>7.5%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Russ, Todd</td><td>55</td><td>R</td><td>House</td><td>$68,036</td><td>$4,851</td><td>7.1%</td><td>9&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Sanders, Mike</td><td>59</td><td>R</td><td>House</td><td>$163,984</td><td>$13,751</td><td>8.4%</td><td>13&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Schulz, Mike</td><td>38</td><td>R</td><td>Senate</td><td>$64,350</td><td>$13,000</td><td>20.2%</td><td>7&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Scott, Paul</td><td>43</td><td>R</td><td>Senate</td><td>$109,974</td><td>$5,200</td><td>4.7%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Sears, Earl</td><td>11</td><td>R</td><td>House</td><td>$41,881</td><td>$1,001</td><td>2.4%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Sharp, Ron</td><td>17</td><td>R</td><td>Senate</td><td>$92,926</td><td>$3,951</td><td>4.3%</td><td>6&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Shaw, Wayne</td><td>3</td><td>R</td><td>Senate</td><td>$82,164</td><td>$4,250</td><td>5.2%</td><td>6&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Silk, Joseph</td><td>5</td><td>R</td><td>Senate</td><td>$47,279</td><td>$2,950</td><td>6.2%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Simpson, Frank</td><td>14</td><td>R</td><td>Senate</td><td>$9,950</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Smalley, Jason</td><td>28</td><td>R</td><td>Senate</td><td>$40,600</td><td>$5,000</td><td>12.3%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Sparks, John</td><td>16</td><td>D</td><td>Senate</td><td>$23,500</td><td>$4,750</td><td>20.2%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Standridge, Rob</td><td>15</td><td>R</td><td>Senate</td><td>$217,462</td><td>$6,200</td><td>2.9%</td><td>9&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Stanislawski, Gary </td><td>35</td><td>R</td><td>Senate</td><td>$57,400</td><td>$3,500</td><td>6.1%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Stone, Shane</td><td>89</td><td>D</td><td>House</td><td>$33,256</td><td>$1,250</td><td>3.8%</td><td>3&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Strohm, Chuck</td><td>69</td><td>R</td><td>House</td><td>$37,750</td><td>$2,250</td><td>6.0%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Sykes, Anthony</td><td>24</td><td>R</td><td>Senate</td><td>$2,450</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Tadlock, Johnny</td><td>1</td><td>D</td><td>House</td><td>$21,750</td><td>$0</td><td>0.0%</td><td>0&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Taylor, Zack</td><td>28</td><td>R</td><td>House</td><td>$81,463</td><td>$15,575</td><td>19.1%</td><td>25&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Teague, Tess</td><td>101</td><td>R</td><td>House</td><td>$40,566</td><td>$3,501</td><td>8.6%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Thompson, Roger</td><td>8</td><td>R</td><td>Senate</td><td>$34,206</td><td>$750</td><td>2.2%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Thomsen, Todd</td><td>25</td><td>R</td><td>House</td><td>$84,125</td><td>$15,550</td><td>18.5%</td><td>22&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Treat, Greg</td><td>47</td><td>R</td><td>Senate</td><td>$256,856</td><td>$22,697</td><td>8.8%</td><td>23&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Vaughan, Steve</td><td>37</td><td>R</td><td>House</td><td>$6,576</td><td>$1,001</td><td>15.2%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Virgin, Emily</td><td>44</td><td>D</td><td>House</td><td>$44,343</td><td>$2,501</td><td>5.6%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Walke, Collin</td><td>87</td><td>D</td><td>House</td><td>$135,578</td><td>$4,050</td><td>3.0%</td><td>10&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Wallace, Kevin</td><td>32</td><td>R</td><td>House</td><td>$167,281</td><td>$10,050</td><td>6.0%</td><td>13&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Watson, Weldon</td><td>79</td><td>R</td><td>House</td><td>$62,446</td><td>$16,251</td><td>26.0%</td><td>15&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>West, Josh</td><td>5</td><td>R</td><td>House</td><td>$75,235</td><td>$1,751</td><td>2.3%</td><td>3&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>West, Kevin</td><td>54</td><td>R</td><td>House</td><td>$52,808</td><td>$3,501</td><td>6.6%</td><td>3&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>West, Rick</td><td>3</td><td>R</td><td>House</td><td>$56,304</td><td>$3,501</td><td>6.2%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>West, Tammy</td><td>84</td><td>R</td><td>House</td><td>$69,457</td><td>$4,251</td><td>6.1%</td><td>5&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Williams, Cory</td><td>34</td><td>D</td><td>House</td><td>$5,900</td><td>$501</td><td>8.5%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Worthen, Rande</td><td>64</td><td>R</td><td>House</td><td>$56,960</td><td>$250</td><td>0.4%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Wright, Harold</td><td>57</td><td>R</td><td>House</td><td>$64,151</td><td>$2,501</td><td>3.9%</td><td>4&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Yen, Ervin</td><td>40</td><td>R</td><td>Senate</td><td>$69,225</td><td>$500</td><td>0.7%</td><td>1&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="totals"><td>Young, George</td><td>99</td><td>D</td><td>House</td><td>$54,122</td><td>$2,250</td><td>4.2%</td><td>3&emsp;<i class="click-to-expand fa fa-caret-down" data-toggle="tooltip" title="Click for more details"></i></td></tr>
+					 <tr class="bold"><td>Total</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>$11,318,875.02</td><td>$680,255.22</td><td>6.0%</td><td>381</td></tr>
 					</tbody>
 				</table>
 		</div>
@@ -232,6 +249,14 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     <!-- Custom scripts for this page -->
-    <script src="XXXXXXXXXXXX.js"></script>
+    <script type="text/javascript">
+		$(".click-to-expand").bind("click", function(d) {
+            $(this).parent().parent().nextUntil("tr.totals").toggle();
+		});
+		
+        $('[data-toggle="tooltip"]').tooltip({"trigger": "hover"});
+
+
+    </script>
   	
   </html>
